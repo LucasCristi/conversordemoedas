@@ -1,0 +1,50 @@
+body{
+    background-image: url('https://imagens.ebc.com.br/JDvHQVEncsWFKMHWIPjEg4-zQro=/1170x700/smart/https://agenciabrasil.ebc.com.br/sites/default/files/thumbnails/image/dolar_moeda_0803221210.jpg?itok=1FxVwgAy');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    margin: 0;
+}
+
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    padding: 30px;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.55);
+}
+
+label{
+    margin-top: 10px;
+}
+
+input{
+    width: 40%;
+    padding: 10px;
+    background-color: #000;
+    margin: 10px;
+    border-radius: 5px;
+    color: #fff;
+    text-align: center;
+}
+
+button{
+    background-color: #000;
+    color: rgb(255, 221, 27);
+}
+
+#resultado{
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 25px;
+    color: rgb(255, 221, 27);
+}
+
+footer{
+    text-align: center;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.55);
+}
